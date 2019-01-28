@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300');
+
+
+body    {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 100;
+
+    /*No Select*/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+header h1   {
+    font-weight: 100;
+}
+#calc-container {
+    width: 240px;
+    padding: 20px;
+    border: 0px solid #85B5B5;
+    box-shadow: 1px 2px 5px #85B5B5;
+    position: relative;
+}
+
+#calc-screen    {
+    height: 80px;
+    background-color: #89DDDD;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    position: relative;
+    padding: 0;
+    overflow: hidden;
+}
+
+#result {
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: right;
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
+    line-height: auto;
+    padding-left: 10px;
+    padding-right: 5px;
+    overflow: auto;  
+}
+
+.calc-num, .calc-operation, .calc-operations  {
+    font-size: 16px;
+}
+
+.calc-num   {
+    background-color: #38A9A9;
+}
+
+.calc-operation {
+    background-color: #217171;
+}
+
+footer {
+    margin: 40px;
+}
